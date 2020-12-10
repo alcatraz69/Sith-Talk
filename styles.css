@@ -1,0 +1,57 @@
+body {
+  font-family: "Langar", cursive;
+}
+main {
+  margin: auto;
+  text-align: center;
+}
+.title {
+  display: block;
+  height: 15vh;
+  background-color: rgb(29, 29, 29);
+  margin-bottom: 20px;
+}
+h1 {
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+  color: crimson;
+}
+
+p {
+  font-size: 25px;
+  word-spacing: 10px;
+}
+
+.input-textarea {
+  width: 50%;
+  margin: auto;
+  resize: none;
+  height: 10rem;
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  outline: none;
+  border: 5px solid rgb(29, 29, 29);
+  display: block;
+}
+
+.input-textarea::placeholder {
+  font-family: "Langar", cursive;
+}
+
+.translate-button {
+  outline: none;
+  padding: 20px;
+  background-color: rgb(112, 0, 0);
+  border: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.output-textarea {
+  background-color: white;
+}
